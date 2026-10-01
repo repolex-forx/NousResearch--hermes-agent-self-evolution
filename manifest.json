@@ -37,6 +37,78 @@
       ],
       "ast": [
         "aggregate/ast/0a929e3aa20e15cf04dc7c28492a7d41a5139125/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/0a929e3aa20e15cf04dc7c28492a7d41a5139125.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "dspy",
+          "ecosystem": "PYPI",
+          "version": "3.0.0",
+          "githubOrg": "stanfordnlp",
+          "githubRepo": "dspy",
+          "githubCommit": "c45423df288bc8e8b67642e8f6bbdbbfc1030012",
+          "githubTag": "3.0.0",
+          "githubUrl": "https://github.com/stanfordnlp/dspy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "openai",
+          "ecosystem": "PYPI",
+          "version": "1.0.0",
+          "githubOrg": "openai",
+          "githubRepo": "openai-python",
+          "githubCommit": "08b8179a6b3e46ca8eb117f819cc6563ae74e27d",
+          "githubTag": "v1.0.0",
+          "githubUrl": "https://github.com/openai/openai-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyyaml",
+          "ecosystem": "PYPI",
+          "version": "6.0",
+          "githubOrg": "yaml",
+          "githubRepo": "pyyaml",
+          "githubCommit": "8cdff2c80573b8be8e8ad28929264a913a63aa33",
+          "githubTag": "6.0",
+          "githubUrl": "https://github.com/yaml/pyyaml",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "click",
+          "ecosystem": "PYPI",
+          "version": "8.0",
+          "githubOrg": "pallets",
+          "githubRepo": "click",
+          "githubUrl": "https://github.com/pallets/click",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "rich",
+          "ecosystem": "PYPI",
+          "version": "13.0",
+          "githubOrg": "Textualize",
+          "githubRepo": "rich",
+          "githubUrl": "https://github.com/Textualize/rich",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "7.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-asyncio",
+          "ecosystem": "PYPI",
+          "version": "0.21",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-asyncio",
+          "githubUrl": "https://github.com/pytest-dev/pytest-asyncio",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
